@@ -298,16 +298,6 @@ function LoginPage(props) {
 							}}
 						></TextInput>
 					</form>
-					<div className="forgot-section">
-						{type === "owner" ? null : (
-							<Link
-								to={`/forgotPassword/${type}`}
-								className="link forgot-pass"
-							>
-								Forgot your password?
-							</Link>
-						)}
-					</div>
 					<Button className="login-btn" onClick={handleSubmit}>
 						Login
 				</Button>
