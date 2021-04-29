@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Button, Typography } from "@material-ui/core";
 import TextInput from "../components/TextInput";
-import "./ForgotPassword.css";
 import axios from "axios";
 import Loading from "./Loading";
 import { Alert } from "@material-ui/lab";
